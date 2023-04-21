@@ -11,6 +11,40 @@
 		<title>Weather-App</title>
 	</head>
 	<body>
+		<div class="container">
+			<div class="search-box">
+				<i class="fa-solid fa-location-dot"></i>
+				<input type="text" placeholder="Enter Your Location" />
+				<button><i class="fa-solid fa-magnifying-glass"></i></button>
+			</div>
+
+			<div class="error">
+				<img src="/Weather-App/img/404.png" alt="" />
+				<p>Oops! Invalid Location :/</p>
+			</div>
+
+			<div class="weather-box">
+				<img src="/Weather-App/img/cloud.png" alt="" />
+				<p class="temperature">-2<span>&degC</span></p>
+				<p class="description">Overcast Clouds</p>
+			</div>
+			<div class="weather-details">
+				<div class="humidity">
+					<i class="fa-solid fa-water"></i>
+					<div>
+						<span>91%</span>
+						<p>Humidity</p>
+					</div>
+				</div>
+				<div class="wind-speed">
+					<i class="fa-solid fa-wind"></i>
+					<div>
+						<span>1Km/h</span>
+						<p>Wind Speed</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="https://kit.fontawesome.com/73915e19ba.js" crossorigin="anonymous"></script>
 		<script src="index.js"></script>
 	</body>
