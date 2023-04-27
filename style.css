@@ -18,7 +18,7 @@ body {
 	background-color: #fff;
 	width: 400px;
 	height: 105px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	border-radius: 18px;
 	padding: 0 30px;
 }
@@ -84,6 +84,7 @@ body {
 
 .weather-box {
 	text-align: center;
+	display: none;
 }
 
 .weather-box img {
@@ -108,13 +109,14 @@ body {
 	color: #06283d;
 	font-size: 22px;
 	font-weight: bold;
+	text-transform: capitalize;
 }
 
 .weather-details {
 	width: 100%;
 	color: #06283d;
 	margin: 65px 0 35px 0;
-	display: flex;
+	display: none;
 	justify-content: space-around;
 }
 
